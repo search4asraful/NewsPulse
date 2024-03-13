@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+:root {
+    --primary-color: #ff904b;
+    --secondary-color: #065951;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.auth-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.signContainer,
+.loginContainer {
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    width: 360px;
+    max-width: 100%;
+    border-radius: 20px;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signContainer {
+    padding: 26px 0;
+}
+
+.signContainer p,
+.loginContainer p {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+}
+
+.signContainer span,
+.loginContainer span {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.signContainer a,
+.loginContainer a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0 10px;
+}
+
+.signContainer form,
+.loginContainer form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.signContainer input,
+.loginContainer input {
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 8px;
+    max-width: 100%;
+    width: 300px;
+    outline: none;
+}
+
+.remember-me {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.remember-me input {
+    width: auto;
+    margin-right: 10px;
+}
+
+.loginContainer a.hyper-link {
+    text-decoration: underline;
+}
+
+.signContainer button,
+.loginContainer button {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    scale: 1;
+    transition: scale .1s ease;
+}
+
+.signContainer button:active,
+.loginContainer button:active {
+    scale: 0.95;
+}
+
+@media screen and (max-width: 400px){
+    .signContainer,
+    .loginContainer {
+        margin: 0 16px;
+    }
+    .signContainer input,
+    .loginContainer input {
+        width: 280px;
+    }
+    .remember-me {
+        width: 100%;
+    }
+    .remember-me input {
+        width: auto;
+        margin-left: 2rem;
+    }
+}
