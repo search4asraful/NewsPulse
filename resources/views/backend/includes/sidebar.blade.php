@@ -19,10 +19,19 @@
             </div>
             <div class="menu-title">Dashboard</div>
           </a>
+          
+        </li>
+
+        <li>
+          <a href="javascript:void(0)" class="has-arrow">
+            <div class="parent-icon"><i class="material-icons-outlined">home</i>
+            </div>
+            <div class="menu-title">Category</div>
+          </a>
           <ul>
-            <li><a href="javascript:void(0)"><i class="material-icons-outlined">arrow_right</i>eCommerce</a>
+            <li><a href="{{ route('category.create') }}"><i class="material-icons-outlined">arrow_right</i>Add Category</a>
             </li>
-            <li><a href="javascript:void(0)"><i class="material-icons-outlined">arrow_right</i>Alternate</a>
+            <li><a href="{{ route('category.index') }}"><i class="material-icons-outlined">arrow_right</i>Manage Category</a>
             </li>
           </ul>
         </li>
