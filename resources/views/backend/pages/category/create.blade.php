@@ -11,7 +11,8 @@
                             <a href="{{ route('category.index') }}" class="btn btn btn-success float-end">Manage</a>
                         </div>
                         <div class="card-body">
-                            <form>
+                            <form action="{{ route('category.store') }}" method="POST">
+                                @csrf
                                 <div class="mb-3">
                                   <label for="name" class="form-label">Category Name</label>
                                   <input type="name" name="name" class="form-control" id="name" placeholder="Enter your category name">

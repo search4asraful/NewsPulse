@@ -1,7 +1,7 @@
 <aside class="sidebar-wrapper">
   <div class="sidebar-header">
     <div class="logo-icon">
-      <img src="{{ asset('/backend/') }}/assets/images/logo-icon.png" class="logo-img" alt="">
+      <a href="{{ route('home') }}"><img src="{{ asset('/backend/') }}/assets/images/logo-icon.svg" class="logo-img" alt=""></a>
     </div>
     <div class="logo-name flex-grow-1">
       <h5 class="mb-0">{{ config('app.name') }}</h5>
@@ -14,17 +14,16 @@
       <!--navigation-->
       <ul class="metismenu" id="sidenav">
         <li>
-          <a href="javascript:void(0)" class="has-arrow">
+          <a href="{{ route('home') }}">
             <div class="parent-icon"><i class="material-icons-outlined">home</i>
             </div>
             <div class="menu-title">Dashboard</div>
           </a>
-          
         </li>
 
         <li>
           <a href="javascript:void(0)" class="has-arrow">
-            <div class="parent-icon"><i class="material-icons-outlined">home</i>
+            <div class="parent-icon"><i class="material-icons-outlined">category</i>
             </div>
             <div class="menu-title">Category</div>
           </a>

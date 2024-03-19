@@ -11,8 +11,8 @@
                 </div>
                 <div class="col-lg-4 col-md-3 order-0 order-lg-2 d-none d-md-block">
                     <div class="header__top-logo logo text-lg-center">
-                        <a href="index.html" class="logo-dark"><img src="{{ asset('/frontend/') }}/assets/img/logo/logo.png" alt="Logo"></a>
-                        <a href="index.html" class="logo-light"><img src="{{ asset('/frontend/') }}/assets/img/logo/w_logo.png" alt="Logo"></a>
+                        <a href="/" class="logo-dark"><img src="{{ asset('/frontend/') }}/assets/img/logo/logo.png" alt="Logo"></a>
+                        <a href="/" class="logo-light"><img src="{{ asset('/frontend/') }}/assets/img/logo/w_logo.png" alt="Logo"></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-3 col-sm-6 order-3 d-none d-sm-block">
@@ -46,8 +46,8 @@
                     <div class="tgmenu__wrap">
                         <nav class="tgmenu__nav">
                             <div class="logo d-block d-md-none">
-                                <a href="index.html" class="logo-dark"><img src="{{ asset('/frontend/') }}/assets/img/logo/logo.png" alt="Logo"></a>
-                                <a href="index.html" class="logo-light"><img src="{{ asset('/frontend/') }}/assets/img/logo/w_logo.png" alt="Logo"></a>
+                                <a href="/" class="logo-dark"><img src="{{ asset('/frontend/') }}/assets/img/logo/logo.png" alt="Logo"></a>
+                                <a href="/" class="logo-light"><img src="{{ asset('/frontend/') }}/assets/img/logo/w_logo.png" alt="Logo"></a>
                             </div>
                             <div class="offcanvas-toggle">
                                 <a href="#"><i class="flaticon-menu-bar"></i></a>
@@ -56,25 +56,25 @@
                                 <ul class="navigation">
                                     <li class="active menu-item-has-children"><a href="#">Home</a>
                                         <ul class="sub-menu">
-                                            <li class="active"><a href="index.html">Home Default</a></li>
-                                            <li><a href="index-2.html">Home Interior</a></li>
-                                            <li><a href="index-3.html">Home Travel</a></li>
-                                            <li><a href="index-4.html">Home Technology</a></li>
-                                            <li><a href="index-5.html">Home NFT</a></li>
-                                            <li><a href="index-6.html">Home Fashion</a></li>
-                                            <li><a href="index-7.html">Home Adventure</a></li>
-                                            <li><a href="index-8.html">Home Minimal</a></li>
+                                            <li class="active"><a href="/">Home Default</a></li>
+                                            <li><a href="javascript:void(0)">Home Interior</a></li>
+                                            <li><a href="javascript:void(0)">Home Travel</a></li>
+                                            <li><a href="javascript:void(0)">Home Technology</a></li>
+                                            <li><a href="javascript:void(0)">Home NFT</a></li>
+                                            <li><a href="javascript:void(0)">Home Fashion</a></li>
+                                            <li><a href="javascript:void(0)">Home Adventure</a></li>
+                                            <li><a href="javascript:void(0)">Home Minimal</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="lifestyle.html">Lifestyle</a></li>
-                                    <li><a href="travel.html">Travel</a></li>
+                                    <li><a href="javascript:void(0)">Lifestyle</a></li>
+                                    <li><a href="javascript:void(0)">Travel</a></li>
                                     <li class="menu-item-has-children"><a href="#">Post Type</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">Our Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="javascript:void(0)">Our Blog</a></li>
+                                            <li><a href="javascript:void(0)">Blog Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="nft.html">NFT</a></li>
+                                    <li><a href="javascript:void(0)">NFT</a></li>
                                 </ul>
                             </div>
                             <div class="tgmenu__action">
@@ -98,8 +98,8 @@
                         <nav class="tgmobile__menu-box">
                             <div class="close-btn"><i class="fas fa-times"></i></div>
                             <div class="nav-logo">
-                                <a href="index.html" class="logo-dark"><img src="{{ asset('/frontend/') }}/assets/img/logo/logo.png" alt="Logo"></a>
-                                <a href="index.html" class="logo-light"><img src="{{ asset('/frontend/') }}/assets/img/logo/w_logo.png" alt="Logo"></a>
+                                <a href="/" class="logo-dark"><img src="{{ asset('/frontend/') }}/assets/img/logo/logo.png" alt="Logo"></a>
+                                <a href="/" class="logo-light"><img src="{{ asset('/frontend/') }}/assets/img/logo/w_logo.png" alt="Logo"></a>
                             </div>
                             <div class="tgmobile__search">
                                 <form action="#">
@@ -134,8 +134,8 @@
             <div class="offCanvas__toggle"><i class="flaticon-addition"></i></div>
             <div class="offCanvas__content">
                 <div class="offCanvas__logo logo">
-                    <a href="index.html" class="logo-dark"><img src="{{ asset('/frontend/') }}/assets/img/logo/logo.png" alt="Logo"></a>
-                    <a href="index.html" class="logo-light"><img src="{{ asset('/frontend/') }}/assets/img/logo/w_logo.png" alt="Logo"></a>
+                    <a href="/" class="logo-dark"><img src="{{ asset('/frontend/') }}/assets/img/logo/logo.png" alt="Logo"></a>
+                    <a href="/" class="logo-light"><img src="{{ asset('/frontend/') }}/assets/img/logo/w_logo.png" alt="Logo"></a>
                 </div>
                 <p>Change how the world works with Biotellus, made for ecology.</p>
                 <ul class="offCanvas__instagram list-wrap">

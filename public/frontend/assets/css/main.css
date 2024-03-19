@@ -1750,7 +1750,7 @@ input[type=color] {
   display: inline-block;
 }
 .logo a img {
-  max-width: 109px;
+  max-width: 65px;
 }
 .logo a.logo-light {
   display: none;
