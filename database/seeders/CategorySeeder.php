@@ -15,9 +15,18 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         Category::create([
-            'name' => 'Technology',
-            'slug' => 'user@admin.com',
-            
+            'name' => 'TECHNOLOGY',
+            'slug' => 'Technology',
+        ]);
+
+        Category::create([
+            'name' => 'MEDICAL',
+            'slug' => 'Medical',
+        ]);
+
+        Category::create([
+            'name' => 'SPORTS',
+            'slug' => 'Sports',
         ]);
     }
 }

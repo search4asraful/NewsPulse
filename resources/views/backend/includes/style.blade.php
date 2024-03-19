@@ -1,4 +1,4 @@
-<link rel="icon" href="{{ asset('/backend/') }}/assets/images/favicon-32x32.png" type="image/png">
+<link rel="icon" href="{{ asset('/backend/') }}/assets/images/favicon.svg" type="image/svg">
 <!--plugins-->
 <link href="{{ asset('/backend/') }}/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="{{ asset('/backend/') }}/assets/plugins/metismenu/metisMenu.min.css">
